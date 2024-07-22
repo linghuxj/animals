@@ -10,6 +10,7 @@ module.exports = {
       script: "./.next/server/pages/_app.js",
       args: "start --port 3000",
       env: {
+        port: 3000,
         NODE_ENV: "development",
       },
       watch: false,
