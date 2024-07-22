@@ -6,7 +6,7 @@ module.exports = {
   apps: [
     {
       name: "animals",
-      script: "./.next/server/pages/index.js",
+      script: "./.next/server/pages/_app.js",
       env: {
         NODE_ENV: "development",
       },
