@@ -7,7 +7,7 @@ module.exports = {
   apps: [
     {
       name: "animals",
-      script: "./.next/server/pages/_app.js",
+      script: "pnpm",
       args: "start --port 3000",
       env: {
         port: 3000,
