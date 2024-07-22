@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About - Appy',
-  description: 'Page description',
+  title: '关于 - 语灵之音',
+  description: '关于我们',
 }
 
 import Hero from '@/components/hero-about'

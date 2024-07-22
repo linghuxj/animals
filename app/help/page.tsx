@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Help - Appy',
-  description: 'Page description',
+  title: '帮助中心 - 语灵之音',
+  description: '可以获取您所需要的帮助信息',
 }
 
 import PageIllustration from '@/components/page-illustration'

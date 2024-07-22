@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Appy',
-  description: 'Page description',
+  title: '语灵之音',
+  description: '开启与动物对话的AI世界',
 }
 
 import PageIllustration from '@/components/page-illustration'
