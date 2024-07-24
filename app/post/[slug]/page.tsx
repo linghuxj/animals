@@ -6,6 +6,7 @@ import PostDate from '@/components/post-date'
 import { Mdx } from '@/components/mdx/mdx'
 import Newsletter from '@/components/newsletter'
 import RelatedPosts from '@/components/related-posts-02'
+import Cta from '@/components/cta'
 
 export async function generateStaticParams() {
   return allPosts.map((post) => ({
@@ -85,7 +86,7 @@ export default async function SinglePost({ params }: {
 
                 {/* Article footer */}
                 <footer>
-                  <Newsletter />
+                  <Cta />
                 </footer>
 
               </article>
@@ -95,7 +96,7 @@ export default async function SinglePost({ params }: {
           </div>
         </div>
       </section>
-      <RelatedPosts />
+      {/* <RelatedPosts /> */}
     </>
   )
 }

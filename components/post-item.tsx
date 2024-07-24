@@ -7,13 +7,13 @@ export default function PostItem({ ...props }) {
     <article className="flex flex-col h-full">
       <header>
         {props.image &&
-          <Link className="block mb-4" href={`/blog/${props.slug}`}>
+          <Link className="block mb-4" href={`/post/${props.slug}`}>
             <figure className="relative h-0 pb-9/16">
               <Image className="absolute inset-0 w-full h-full object-cover" src={props.image} width={352} height={198} alt={props.title} />
             </figure>
           </Link>
         }
-        <Link className="hover:underline" href={`/blog/${props.slug}`}>
+        <Link className="hover:underline" href={`/post/${props.slug}`}>
           <h3 className="h4 font-red-hat-display mb-2">{props.title}</h3>
         </Link>
       </header>

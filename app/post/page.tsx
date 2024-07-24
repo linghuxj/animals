@@ -7,11 +7,11 @@ import PostItem from '@/components/post-item'
 import Sidebar from './sidebar'
 
 export const metadata = {
-  title: 'Blog - Appy',
-  description: 'Page description',
+  title: '资讯 - 语灵之音',
+  description: '项目的最新进展以及相关资讯信息',
 }
 
-export default function Blog() {
+export default function Post() {
 
   // Sort posts by date
   allPosts.sort((a, b) => {
@@ -40,7 +40,7 @@ export default function Blog() {
                 <header>
                   {/* Title and excerpt */}
                   <div className="text-center md:text-left">
-                    <Link href={`/blog/${featuredPost.slug}`}>
+                    <Link href={`/post/${featuredPost.slug}`}>
                       <h1 className="h1 font-red-hat-display mb-4">{featuredPost.title}</h1>
                     </Link>
                     <p className="text-xl text-gray-600 dark:text-gray-400">{featuredPost.summary}</p>
@@ -66,7 +66,7 @@ export default function Blog() {
         </div>
       </section>
 
-      <RelatedPosts />
+      {/* <RelatedPosts /> */}
 
       {/* Articles list */}
       <section>
@@ -78,7 +78,7 @@ export default function Blog() {
               <div className="lg:grow" data-aos="fade-down" data-aos-delay="200">
 
                 {/* Section title */}
-                <h4 className="h3 font-red-hat-display mb-8">Latest</h4>
+                <h4 className="h3 font-red-hat-display mb-8">更多</h4>
 
                 {/* Articles container */}
                 <div className="grid gap-12 sm:grid-cols-2 sm:gap-x-6 md:gap-y-8 items-start">
@@ -99,7 +99,7 @@ export default function Blog() {
 
               </div>
 
-              <Sidebar />
+              {/* <Sidebar /> */}
 
             </div>
           </div>
