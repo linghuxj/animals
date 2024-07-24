@@ -24,7 +24,7 @@ export default function PricingTables() {
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4 text-gray-600 dark:text-gray-400">¥</span>
                   <span className="h3">0</span>
-                  <span className="font-medium text-gray-500 dark:text-gray-400">/每月</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">/月</span>
                 </div>
                 <div className="text-gray-500 dark:text-gray-400">— 限制内免费使用.</div>
               </div>
@@ -43,7 +43,7 @@ export default function PricingTables() {
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4 text-gray-600 dark:text-gray-400">¥</span>
                   <span className="h3">10</span>
-                  <span className="font-medium text-gray-500 dark:text-gray-400">/每月</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">/月</span>
                 </div>
                 <div className="text-gray-500 dark:text-gray-400">— 无限制绑定专属宠物</div>
                 <div className="text-gray-500 dark:text-gray-400">— 无限制识别</div>
@@ -59,15 +59,20 @@ export default function PricingTables() {
               <div className="grow mb-4 pb-4">
                 <div className="flex justify-between items-center mb-1">
                   <div className="text-xl font-bold font-red-hat-display">企业版 Bus</div>
+                  <div className="inline-flex px-3 py-1 text-xs font-medium text-teal-600 dark:text-teal-400 bg-teal-200 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">-50%</div>
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4 text-gray-600 dark:text-gray-400">$</span>
-                  <span className="h3">240</span>
-                  <span className="font-medium text-gray-500 dark:text-gray-400">/每月</span>
+                  <span className="h3">600</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">/月</span>
                 </div>
-                <div className="text-gray-500 dark:text-gray-400">— 提供完整的企业级方案</div>
+                <div className="text-gray-500 dark:text-gray-400">— 无限制绑定专属宠物</div>
+                <div className="text-gray-500 dark:text-gray-400">— 无限制识别</div>
+                <div className="text-gray-500 dark:text-gray-400">— 无限制对话次数</div>
+                <div className="text-gray-500 dark:text-gray-400">— 提供完整的企业级方案（包含智能硬件，需另外采购）</div>
                 <div className="text-gray-500 dark:text-gray-400">— API开放</div>
                 <div className="text-gray-500 dark:text-gray-400">— 开放企业用户绑定</div>
+                <div className="text-gray-500 dark:text-gray-400">— 限定绑定人数为20人，超过按¥60/月/人</div>
               </div>
               <div className="mt-24">
                 <a className="btn-sm text-white bg-purple-500 hover:bg-purple-400 dark:text-teal-400 dark:bg-gray-700 dark:hover:bg-gray-600 w-full" href="#0">Go Premium</a>
