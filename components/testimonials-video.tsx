@@ -11,8 +11,8 @@ export default function TestimonialsVideo() {
             thumb={VideoThumb}
             thumbWidth={1024}
             thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
+            thumbAlt="Sounds"
+            video="https://an-smtro.oss-cn-guangzhou.aliyuncs.com/video/video.mp4"
             videoWidth={1920}
             videoHeight={1080} />
 

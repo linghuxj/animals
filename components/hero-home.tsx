@@ -98,7 +98,7 @@ export default function HeroHome() {
                 thumbWidth={290}
                 thumbHeight={624}
                 thumbAlt="Sounds"
-                video="/videos/video.mp4"
+                video="https://an-smtro.oss-cn-guangzhou.aliyuncs.com/video/video.mp4"
                 videoWidth={1920}
                 videoHeight={1080}
               />
