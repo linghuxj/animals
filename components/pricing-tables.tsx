@@ -75,7 +75,7 @@ export default function PricingTables() {
                 <div className="text-gray-500 dark:text-gray-400">— 限定绑定人数为20人，超过按¥60/月/人</div>
               </div>
               <div className="mt-24">
-                <a className="btn-sm text-white bg-purple-500 hover:bg-purple-400 dark:text-teal-400 dark:bg-gray-700 dark:hover:bg-gray-600 w-full" href="#0">Go Premium</a>
+                <a className="btn-sm text-white bg-purple-500 hover:bg-purple-400 dark:text-teal-400 dark:bg-gray-700 dark:hover:bg-gray-600 w-full" href="#0">开通 Business</a>
               </div>
             </div>
 
